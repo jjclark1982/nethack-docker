@@ -4,4 +4,4 @@ docker build -t nethack-build - < nethack-build.dockerfile
 docker run --rm nethack-build > nh.tgz
 docker build -t nethack .
 
-docker run --rm -it -v "$PWD/save":/nh360/var/save nethack
+# docker run --rm -it -v "$PWD/save":/nh360/var/save nethack

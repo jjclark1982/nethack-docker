@@ -50,7 +50,7 @@ echo '#-POST' >> hints && \
 echo 'LEX = flex' >> hints && \
 sed -i -e 's/^HACKDIR=.*/HACKDIR=\/nh360/' hints && \
 sed -i -e 's/cp -n/cp /g' hints && \
-sed -i -e "/^CFLAGS/s/-O/-O2 -fomit-frame-pointer/" hints && \
+sed -i -e "/^CFLAGS/s/-O/-Os -fomit-frame-pointer/" hints && \
 ./sys/unix/setup.sh hints
 # echo 'LFLAGS=-static' >> hints
 
