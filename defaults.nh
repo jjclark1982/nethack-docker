@@ -1,0 +1,10 @@
+OPTIONS=confirm
+OPTIONS=number_pad:1
+OPTIONS=DECgraphics
+OPTIONS=color
+OPTIONS=menucolors
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
